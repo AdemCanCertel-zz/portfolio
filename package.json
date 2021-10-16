@@ -1,0 +1,32 @@
+{
+    "name": "portfolio",
+    "description": "AdemCan Certel personal website made in NuxtJS + TailwindCSS + lanyard",
+    "license": "MIT",
+    "homepage": "https://ademcancertel.github.io",
+    "readme": "https://github.com/AdemCanCertel/portfolio/",
+    "version": "2.0.0",
+    "author": {
+        "name": "AdemCan Certel",
+        "email": "ademcancertel619@gmail.com",
+        "url": "https://ademcancertel.github.io"
+    },
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "nuxt start",
+        "generate": "nuxt generate"
+    },
+    "dependencies": {
+        "@iconscout/vue-unicons": "0.0.3",
+        "@nuxtjs/color-mode": "^2.0.5",
+        "nuxt": "^2.15.3"
+    },
+    "devDependencies": {
+        "@nuxtjs/tailwindcss": "^4.0.2",
+        "@tailwindcss/postcss7-compat": "^2.0.4",
+        "autoprefixer": "^9.8.6",
+        "postcss": "^7.0.35",
+        "push-dir": "^0.4.1",
+        "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.4"
+    }
+}
